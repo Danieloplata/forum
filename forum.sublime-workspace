@@ -1,0 +1,270 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"User",
+				"UserRegistered"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"sass",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"Package Control: sear",
+				"Package Control: Discover Packages"
+			],
+			[
+				"mater",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Laragon/www/forum"
+	],
+	"file_history":
+	[
+		"/D/wamp64/www/Forum/.env",
+		"/D/wamp64/www/Forum/routes/web.php",
+		"/D/wamp64/www/System/routes/web.php",
+		"/D/wamp64/www/System/app/Http/Kernel.php",
+		"/D/wamp64/www/System/app/Events/UserRegistered.php",
+		"/D/wamp64/www/System/app/Http/Controllers/RedirectController.php",
+		"/D/wamp64/www/System/app/Http/Middleware/CountryCheck.php",
+		"/D/wamp64/www/vue/database/factories/UserFactory.php",
+		"/D/wamp64/www/vue/resources/views/welcome.blade.php",
+		"/D/wamp64/www/vue/routes/web.php",
+		"/D/wamp64/www/vue/public/js/main.js",
+		"/D/wamp64/www/vue/database/factories/TaskFactory.php",
+		"/D/wamp64/www/vue/database/migrations/2018_09_15_143416_create_tasks_table.php",
+		"/D/wamp64/www/vue/app/Providers/AppServiceProvider.php",
+		"/D/wamp64/www/vue/.env",
+		"/D/wamp64/www/System/app/Providers/EventServiceProvider.php",
+		"/D/wamp64/www/System/public/css/style.css",
+		"/D/wamp64/www/System/resources/views/layouts/master.blade.php",
+		"/D/wamp64/www/System/app/Http/Controllers/Auth/RegisterController.php",
+		"/D/wamp64/www/System/app/Listeners/EmailWelcome.php",
+		"/D/wamp64/www/System/resources/views/layouts/flash.blade.php",
+		"/D/wamp64/www/System/public/css/app.css",
+		"/D/wamp64/www/System/app/Http/Controllers/PanelController.php",
+		"/D/wamp64/www/System/app/Http/Controllers/ProjectController.php",
+		"/D/wamp64/www/System/app/User.php",
+		"/D/wamp64/www/System/database/migrations/2018_07_22_173207_create_countries_table.php",
+		"/D/wamp64/www/System/resources/views/panel/show.blade.php",
+		"/D/wamp64/www/System/app/Panel.php",
+		"/D/wamp64/www/System/database/seeds/DatabaseSeeder.php",
+		"/D/wamp64/www/System/database/seeds/CountriesTableSeeder.php",
+		"/D/wamp64/www/System/resources/views/panel/create.blade.php",
+		"/D/wamp64/www/System/database/migrations/2018_03_29_100240_create_panels_table.php",
+		"/D/wamp64/www/System/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/D/wamp64/www/System/database/migrations/2018_04_09_152508_create_projects_table.php",
+		"/D/wamp64/www/System/database/seeds/ProjectsTableSeeder.php",
+		"/D/wamp64/www/System/app/Project.php",
+		"/D/wamp64/www/System/database/seeds/PanelsTableSeeder.php",
+		"/D/wamp64/www/System/vendor/laravel/framework/src/Illuminate/Support/Carbon.php",
+		"/D/wamp64/www/System/resources/assets/sass/app.scss",
+		"/D/wamp64/www/System/config/mail.php",
+		"/D/wamp64/www/System/.env",
+		"/D/wamp64/www/System/resources/views/emails/welcome.blade.php",
+		"/D/wamp64/www/System/app/Mail/Welcome.php",
+		"/D/wamp64/bin/apache/apache2.4.27/conf/httpd.conf",
+		"/D/wamp64/bin/apache/apache2.4.27/conf/extra/httpd-vhosts.conf",
+		"/D/wamp64/www/System/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php",
+		"/D/wamp64/www/System/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\Laragon\\www\\forum"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 75.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rweb",
+				"routes\\web.php"
+			],
+			[
+				"event",
+				"app\\Providers\\EventServiceProvider.php"
+			],
+			[
+				"layouts/mast",
+				"resources\\views\\layouts\\master.blade.php"
+			],
+			[
+				"register",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Events\\Registered.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
