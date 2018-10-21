@@ -11,6 +11,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/Http/Controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 264,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -76,6 +85,24 @@
 	],
 	"file_history":
 	[
+		"/D/Laragon/www/forum/tests/Feature/ThreadTest.php",
+		"/D/Laragon/www/forum/routes/web.php",
+		"/D/Laragon/www/forum/phpunit.xml",
+		"/D/Laragon/www/forum/app/Http/Controllers/ThreadController.php",
+		"/D/Laragon/www/forum/resources/views/threads/show.blade.php",
+		"/D/Laragon/www/forum/resources/views/threads/index.blade.php",
+		"/D/Laragon/www/forum/app/Thread.php",
+		"/D/Laragon/www/forum/resources/views/threads/index.blade.hpp",
+		"/D/Laragon/www/forum/database/seeds/ThreadsWithRepliesSeeder.php",
+		"/D/Laragon/www/forum/.env",
+		"/D/Laragon/www/forum/app/Reply.php",
+		"/D/Laragon/www/forum/database/migrations/2018_10_20_142438_create_replies_table.php",
+		"/D/Laragon/www/forum/database/factories/ThreadFactory.php",
+		"/D/Laragon/www/forum/database/factories/ReplyFactory.php",
+		"/D/Laragon/www/forum/todo",
+		"/D/Laragon/www/forum/database/migrations/2018_10_20_141645_create_threads_table.php",
+		"/D/Laragon/www/forum/vendor/symfony/http-kernel/Tests/Fixtures/ExtensionNotValidBundle/ExtensionNotValidBundle.php",
+		"/D/Laragon/www/forum/database/seeds/DatabaseSeeder.php",
 		"/D/wamp64/www/Forum/.env",
 		"/D/wamp64/www/Forum/routes/web.php",
 		"/D/wamp64/www/System/routes/web.php",
@@ -140,6 +167,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"            \n",
+			"');\n",
+			"            \n",
 			"container"
 		],
 		"highlight": true,
@@ -164,8 +194,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -217,6 +278,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"r/web",
+				"routes\\web.php"
+			],
+			[
+				"m/replies",
+				"database\\migrations\\2018_10_20_142438_create_replies_table.php"
+			],
+			[
+				"a/repl",
+				"app\\Reply.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"env",
+				"vendor\\symfony\\http-kernel\\Tests\\Fixtures\\ExtensionNotValidBundle\\ExtensionNotValidBundle.php"
+			],
 			[
 				"rweb",
 				"routes\\web.php"
