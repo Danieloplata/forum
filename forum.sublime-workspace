@@ -12,10 +12,19 @@
 	"buffers":
 	[
 		{
-			"file": "app/Http/Controllers/HomeController.php",
+			"file": "resources/views/threads/show.blade.php",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 951,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tests/Unit/ThreadTest.php",
+			"settings":
+			{
+				"buffer_size": 620,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -81,10 +90,28 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Laragon/www/forum"
+		"/C/Laragon/www/forum",
+		"/C/Laragon/www/forum/app",
+		"/C/Laragon/www/forum/resources",
+		"/C/Laragon/www/forum/resources/views",
+		"/C/Laragon/www/forum/resources/views/threads",
+		"/C/Laragon/www/forum/tests",
+		"/C/Laragon/www/forum/tests/Unit"
 	],
 	"file_history":
 	[
+		"/C/Laragon/www/forum/resources/views/threads/reply.blade.php",
+		"/C/Laragon/www/forum/resources/views/threads/show.blade.php",
+		"/C/Laragon/www/forum/tests/Unit/ThreadTest.php",
+		"/C/Laragon/www/forum/database/seeds/ThreadsWithRepliesSeeder.php",
+		"/C/Laragon/www/forum/database/factories/ThreadFactory.php",
+		"/C/Laragon/www/forum/app/Thread.php",
+		"/C/Laragon/www/forum/resources/views/threads/index.blade.php",
+		"/C/Laragon/www/forum/tests/Unit/ReplyTest.php",
+		"/C/Laragon/www/forum/.env",
+		"/C/Laragon/www/forum/tests/Feature/ReadThreadsTest.php",
+		"/C/Laragon/www/forum/app/Reply.php",
+		"/C/Laragon/www/forum/app/Http/Controllers/HomeController.php",
 		"/D/Laragon/www/forum/tests/Feature/ThreadTest.php",
 		"/D/Laragon/www/forum/routes/web.php",
 		"/D/Laragon/www/forum/phpunit.xml",
@@ -153,11 +180,11 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
-		"height": 104.0,
+		"height": 109.0,
 		"where_history":
 		[
 		]
@@ -188,7 +215,7 @@
 	"folders":
 	[
 		{
-			"path": "D:\\Laragon\\www\\forum"
+			"path": "C:\\Laragon\\www\\forum"
 		}
 	],
 	"groups":
@@ -199,19 +226,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/Controllers/HomeController.php",
+					"file": "resources/views/threads/show.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								186,
-								186
+								407,
+								407
 							]
 						],
 						"settings":
@@ -221,10 +248,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tests/Unit/ThreadTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 620,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								464,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 421.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -232,11 +287,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 39.0
 	},
 	"input":
 	{
-		"height": 75.0
+		"height": 77.0
 	},
 	"layout":
 	{
@@ -269,7 +324,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 70.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
