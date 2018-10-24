@@ -9,7 +9,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class ParticipateInForumTest extends TestCase
 {
 	use RefreshDatabase;
-	
+
 	/** @test */
 	public function an_authenticated_user_can_reply_to_threads()
     {
@@ -21,7 +21,6 @@ class ParticipateInForumTest extends TestCase
 
 	    // Create a reply
 	    $reply = factory('App\Reply')->create();
-
 	    // Post the reply
 		$this->post('/threads/' . $thread->id . '/replies', $reply->toArray());
 
