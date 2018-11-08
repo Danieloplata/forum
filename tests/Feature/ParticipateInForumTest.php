@@ -11,20 +11,24 @@ class ParticipateInForumTest extends TestCase
 	use RefreshDatabase;
 
 	/** @test */
+	public function a_guest_may_not_reply_to_threads()
+    {
+    	$this->expectException('Illuminate\Auth\AuthenticationException');
+
+		$this->post('/threads/1/replies', []);
+	}
+
+	/** @test */
 	public function an_authenticated_user_can_reply_to_threads()
     {
-    	// Create a user and sign them in
 	    $this->be($user = factory('App\User')->create());
 
-	    // Create a thread
 	    $thread = factory('App\Thread')->create();
 
-	    // Create a reply
-	    $reply = factory('App\Reply')->create();
-	    // Post the reply
-		$this->post('/threads/' . $thread->id . '/replies', $reply->toArray());
+	    $reply = factory('App\Reply')->make();
 
-		// Assert that it worked
+		$this->post($thread->path() . '/replies', $reply->toArray());
+
 		$this->get($thread->path())
 			->assertSee($reply->body);
 	}

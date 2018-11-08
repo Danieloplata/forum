@@ -29,6 +29,24 @@
                 @include ('threads.reply')
             @endforeach
             <!-- End of Replies -->
+            
+            <!-- The reply form -->
+            @if (auth()->check())
+                <div class="row">
+                    <div class="col-md-12">
+                        <form method="POST" action="{{ route('addReplyToThread', $thread->id) }}">
+                            @csrf
+                            <div class="formgroup">
+                                <textarea name="body" class="form-control" id="addReplyToThread" placeholder="Have something to say?" rows="5"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-default">Post</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            @endif
+            <!-- End of reply form -->
 
         </div>
     </div>

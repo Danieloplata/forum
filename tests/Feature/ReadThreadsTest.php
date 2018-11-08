@@ -31,7 +31,8 @@ class ThreadsTest extends TestCase
     /** @test */
     public function a_user_can_view_replies_to_threads()
     {
-        $reply = factory('App\Reply')->create(['thread_id' => $this->thread->id]);
+        $reply = factory('App\Reply')
+            ->create(['thread_id' => $this->thread->id]);
 
         $response = $this->get($this->thread->path())
             ->assertSee($reply->body);
